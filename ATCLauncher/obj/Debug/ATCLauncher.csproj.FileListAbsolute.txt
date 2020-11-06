@@ -1,0 +1,10 @@
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\bin\Debug\ATCLauncher.exe.config
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\bin\Debug\ATCLauncher.exe
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\bin\Debug\ATCLauncher.pdb
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\obj\Debug\ATCLauncher.csprojAssemblyReference.cache
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\obj\Debug\ATCLauncher.MainLauncher.resources
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\obj\Debug\ATCLauncher.Properties.Resources.resources
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\obj\Debug\ATCLauncher.csproj.GenerateResource.cache
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\obj\Debug\ATCLauncher.csproj.CoreCompileInputs.cache
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\obj\Debug\ATCLauncher.exe
+Z:\GITHUB_Clones\AlexATCLauncher\ATCLauncher\obj\Debug\ATCLauncher.pdb
