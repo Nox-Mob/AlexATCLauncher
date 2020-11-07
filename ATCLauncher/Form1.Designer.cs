@@ -34,7 +34,6 @@
             this.AFVButton = new System.Windows.Forms.Button();
             this.VATISButton = new System.Windows.Forms.Button();
             this.AIRNAVButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // VRCButton
@@ -97,19 +96,11 @@
             this.AIRNAVButton.UseVisualStyleBackColor = true;
             this.AIRNAVButton.Click += new System.EventHandler(this.AIRNAVButton_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(139, 100);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
-            this.textBox1.TabIndex = 6;
-            // 
             // MainLauncher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 223);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(284, 111);
             this.Controls.Add(this.AIRNAVButton);
             this.Controls.Add(this.VATISButton);
             this.Controls.Add(this.AFVButton);
@@ -119,7 +110,6 @@
             this.Name = "MainLauncher";
             this.Text = "vZDV Program Launcher";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -131,7 +121,6 @@
         private System.Windows.Forms.Button AFVButton;
         private System.Windows.Forms.Button VATISButton;
         private System.Windows.Forms.Button AIRNAVButton;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
