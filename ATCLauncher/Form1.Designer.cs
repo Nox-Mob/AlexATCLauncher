@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainLauncher));
             this.VRCButton = new System.Windows.Forms.Button();
             this.VSTARSButton = new System.Windows.Forms.Button();
             this.VERAMButton = new System.Windows.Forms.Button();
@@ -107,8 +108,9 @@
             this.Controls.Add(this.VERAMButton);
             this.Controls.Add(this.VSTARSButton);
             this.Controls.Add(this.VRCButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainLauncher";
-            this.Text = "vZDV Program Launcher";
+            this.Text = "vZDV Quick Launcher";
             this.ResumeLayout(false);
 
         }

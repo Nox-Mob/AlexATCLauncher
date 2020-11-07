@@ -33,6 +33,7 @@ namespace ATCLauncher
         {
             if (File.Exists(vrcDefPath))
             {
+                Console.WriteLine("VRC Path Found, Running.");
                 Process.Start(vrcDefPath);
             }
             //TODO Need to enter else for using user defined location 
@@ -42,6 +43,7 @@ namespace ATCLauncher
         {
             if (File.Exists(vstarsDefPath))
             {
+                Console.WriteLine("vSTARS Path Found, Running.");
                 Process.Start(vstarsDefPath);
             }
         }
@@ -62,7 +64,15 @@ namespace ATCLauncher
         {
             if (File.Exists(@"C:\AudioForVATSIM\AudioForVATSIM.exe"))
             {
-                Process.Start(@"C:\AudioForVATSIM\AudioForVATSIM.exe");
+                try
+                {
+                    Process.Start(@"C:\AudioForVATSIM\AudioForVATSIM.exe");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Unable to open Audio For Vatsim. Unhandled Exception. We were able to catch it this time...");
+                    System.Windows.Forms.Application.Exit();
+                }
             }
         }
 
@@ -80,11 +90,15 @@ namespace ATCLauncher
 
         private void AIRNAVButton_Click(object sender, EventArgs e)
         {
-            // Display 
-            //
-            MessageBox.Show("No valid ICAO Airport entered", "AirNav Website Load Failure",
-               MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+            try
+            {
+                Process.Start("https://www.airnav.com/airports/");
+            }
+            catch (Exception )
+            {
+                MessageBox.Show("No valid ICAO Airport entered", "AirNav Website Load Failure",
+                   MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
     }
