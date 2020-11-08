@@ -1,4 +1,4 @@
-20:50:54.756 Started
-20:50:55.275 Client Started with 11
-20:50:55.288 Loading airport database json
-20:50:55.324 Could not find file '\\192.168.0.19\Data\GITHUB_Clones\AlexATCLauncher\ATCLauncher\bin\Debug\airports.json'.
+22:01:48.459 Started
+22:01:48.990 Client Started with 11
+22:01:49.005 Loading airport database json
+22:01:49.037 Could not find file 'C:\vscode\AlexATCLauncher\ATCLauncher\bin\Debug\airports.json'.
